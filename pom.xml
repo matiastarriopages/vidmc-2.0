@@ -11,7 +11,6 @@
 	<name>vidmc</name>
 
 	<modules>
-		<module>Repository</module>
 		<module>VidmcD</module>
 		<module>VidmcWeb</module>
 	</modules>

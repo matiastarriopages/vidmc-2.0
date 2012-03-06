@@ -26,7 +26,7 @@ public class Repository implements ObjectContainer{
 	}
 
 	private Repository() {
-		objectContainer = Db4oClientServer.openClient("localhost", 5555, "webac", "webac");
+		objectContainer = Db4oClientServer.openClient("localhost", 5555, "vidmc", "vidmc");
 	}
 	
 	public void activate(Object arg0, int arg1) throws Db4oIOException, DatabaseClosedException {

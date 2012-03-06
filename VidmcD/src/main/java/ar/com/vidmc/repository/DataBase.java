@@ -24,5 +24,5 @@ public class DataBase {
 		server = Db4oClientServer.openServer("repository.db", port);
 		server.grantAccess("vidmc", "vidmc");
 	}
-
+	
 }
